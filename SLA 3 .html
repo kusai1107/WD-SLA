@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+<title>Student Application Form</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: cyan;
+margin: 20px;
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+form {
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+
+max-width: 600px;
+margin: auto;
+}
+
+label {
+display: block;
+margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 4px;
+margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}
+</style>
+</head>
+<body>
+<h1>Computer ID Registration Form</h1>
+<form >
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" min="1" required>
+
+<label for="Select a Computer">Course:</label>
+<select id="course" name="course" required>
+<option value="">Select a Brand of Computer</option>
+<option value="DELL">DELL</option>
+<option value="HP">HP</option>
+<option value="LENOVO">LENOVO</option>
+<option value="BLUE">BLUE</option>
+</select>
+
+<input type="submit" value="Submit">
+</form>
+<h2>To see SLA 3 second part</h2>
+<a href="file:///C:/Users/91900/OneDrive/Desktop/Kusai%20SLA%20WD/SLA%203.1%20.html">
+Click Here
+</a>
+</body>
+</html>
